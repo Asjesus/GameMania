@@ -290,11 +290,17 @@ footer{
     }
 
     .menu{
-
+       
         position: relative;
-      
-
     }
+
+    .menu-links {
+        display: none;
+    }
+}
+
+
+
     .menu-links{
         display: none;
         height: 230px;
