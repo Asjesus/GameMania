@@ -118,7 +118,7 @@ header {
 
 .banner-1{
 
-   width: 100%;
+   width: 1320px;
    height: 400px;
    background-image: url(./img/banner.png);
    background-repeat: no-repeat;
@@ -161,7 +161,7 @@ header {
 .carousel-inner {
     padding-top: 10px; 
     height: 595px;
-    width: 100%;
+    width: 1320px;
 }
 
 
@@ -182,11 +182,24 @@ header {
     
 }
 
+.produtos img{
+
+    width: 350px;
+    height: 430px;
+}
+
+.produtos-2 img{
+    width: 350px;
+    height: 430px;
+}
+
+
 .esgotado {
-    width: 379px;
-    height: 450px;
+    width: 350px;
+    height: 430px;
     align-items: center;
     display: flex;
+    padding-top: 20px;
 }
 
 .produtos-2 p {
@@ -282,6 +295,15 @@ footer{
        display: inline-block;
     }
 
+    .game-mania{
+        font-size: 3vw;
+
+    }
+    .melhores-marcas {
+        font-size: 3vw;
+    }
+
+
     .cabecalho-2{
         display: none;
     }
@@ -290,7 +312,6 @@ footer{
     }
 
     .menu{
-       
         position: relative;
     }
 
@@ -298,8 +319,32 @@ footer{
         display: none;
     }
 
+   .produtos img {
+    height: 30vw;
+    width: 20vw;
+   }
+
+   .produtos-2 img {
+    height: 30vw;
+    width: 20vw;
+   }
 
 
+    .ofertas{
+        display: none;
+    }
+
+    .produtos-2 p {
+        display: none;  
+    }
+
+    .esgotado{
+        width: 200px;
+        
+    }
+    .produtos-geral{
+        padding: none;
+    }
 
     .menu-links{
         display: none;
@@ -316,5 +361,25 @@ footer{
         
     }
 
-    
+    .contatos{
+        display: none;
+    }
+    .localizacao{
+        display: none;
+    }
+
+    .siga p{
+      display: none;
+    }
+    .siga img {
+     size: 1vw;
+    }
+    .carousel-inner {
+        height: 50vw;
+        width: 85vw;
+        padding-block-end: 0%;
+    }
+
+
 }
+
