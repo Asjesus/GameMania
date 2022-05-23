@@ -297,17 +297,17 @@ footer{
     .menu-links {
         display: none;
     }
-}
+
 
 
 
     .menu-links{
         display: none;
         height: 230px;
-        width: 30vw;
+        width: 170px;
         position: absolute;
         top: 0px;
-        left: 795px;
+        left: 900px;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -315,7 +315,6 @@ footer{
         background-color: #2D0DF1;
         
     }
-}
 
     
-
+}

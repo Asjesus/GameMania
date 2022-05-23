@@ -6,18 +6,24 @@ alert("value")
 
 }
 
-function mostrarMenu(){
-// Identificar o elemento menu 
-let menu = document.getElementById("menu")
-if(getComputedStyle(menu).display == "none"){
-    menu.style.display = "flex"}
-    else{ menu.style = "none"}
+function mostrarMenu() {
+   let menu = document.getElementById("menu")
 
+   if(getComputedStyle(menu).display == "none"){
+    menu.style.display = "flex"
+   } else {
+       menu.style.display = "none"
+   }
 
-
+   
+    
 }
 
-// Mudar visualização 
+
+
+
+
+
 
 
 
