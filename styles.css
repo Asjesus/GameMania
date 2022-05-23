@@ -370,8 +370,8 @@ footer{
     }
 
     .esgotado{
-        width: 160px;
-        height: 38vw;
+        height: 35vw;
+            width: 20vw;
         
     }
 
@@ -439,7 +439,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 500px){
 
     .menu-links{
         display: none;
@@ -447,7 +447,7 @@ footer{
         width: 190px;
         position: absolute;
         top: 0px;
-        left: 500px;
+        left: 300px;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -462,10 +462,12 @@ footer{
         
     .game-mania{
         font-size: 2vw;}
-        .esgotado a{
-            height: 73.19px;
-            width: 109.9px;
+        .esgotado {
+            height: 35vw;
+            width: 20vw;
         }
+        .banner-geral{
+            height: 1000px;
         
 }
 
