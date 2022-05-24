@@ -542,7 +542,7 @@ footer{
            
         }
     .banner-geral{
-        height: 800px;
+        height: 700px;
     }
     
     .footer img {
@@ -552,14 +552,17 @@ footer{
         justify-content: space-around;
     }
     .geral{
-        height: 200px;
+        height: 150px;
     }
 
     .menu-links a {
         font-size: 10px;
     }
 
-
+    .container-grid {
+        width: 100vw;
+    
+    }
 
 
 }
