@@ -415,7 +415,9 @@ footer{
     .localizacao{
         display: none;
     }
-
+    .siga{
+        display: none;
+    }
     .siga p{
       display: none;
     }
@@ -538,20 +540,20 @@ footer{
 
         #carrossel{ 
             width: 100%;
-            height: 80%;
+            height: 100%;
            
         }
     .banner-geral{
-        height: 700px;
+        height: 600px;
     }
     
     .footer img {
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
         
     }
     .geral{
-        height: 150px;
+        height: 120px;
     }
 
     .menu-links a {
@@ -565,9 +567,13 @@ footer{
 
       .footer{
 
-        width: 100%;
+        width: 90%;
+        height: 100px;
         display: flex;
-        justify-content: space-between;
+        justify-content:space-between;
+      }
+      .esgotado{
+          height: 155px;
       }
 
 }
