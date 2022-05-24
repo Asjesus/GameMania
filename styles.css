@@ -183,7 +183,7 @@ header {
 
 #carrossel{
     
-    width: 1300px;
+    width: 75vw;
 }
 
 .carousel-inner {
@@ -318,23 +318,29 @@ footer{
 #barras{
     display: none;
 }
+
+.menu{
+    position: relative;
+}
+
+
 @media screen and (max-width:1300px) {
     .container{
         width: 85vw;
     }
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1200px){
     #barras{
        display: inline-block;
     }
 
     .game-mania{
-        font-size: 3vw;
+        font-size: 2vw;
 
     }
     .melhores-marcas {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
 
@@ -345,9 +351,6 @@ footer{
         display: none;
     }
 
-    .menu{
-        position: relative;
-    }
 
     .menu-links {
         display: none;
@@ -392,11 +395,11 @@ footer{
 
     .menu-links{
         display: none;
-        height: 230px;
-        width: 170px;
+        height: 180px;
+        width: 300px;
         position: absolute;
         top: 0px;
-        left: 900px;
+        left: 650px;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -445,42 +448,3 @@ footer{
   
 }
 
-@media screen and (max-width: 500px){
-
-    .menu-links{
-        display: none;
-        height: 180px;
-        width: 190px;
-        position: absolute;
-        top: 0px;
-        left: 300px;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
-        background-color: #2D0DF1;
-        line-height: 0.9;
-    }
- 
-    .melhores-marcas {
-            font-size: 2vw;
-        }
-        
-    .game-mania{
-            font-size: 2vw;
-    }
-    .esgotado {
-            height: 30vw;
-            width: 20vw;
-        }
-    .banner-geral{
-            height: 1100px;
-        
-    }
-    .esgotado a {
-            display: none;
-  }
-
-  
-  
-}
