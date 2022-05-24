@@ -14,7 +14,7 @@ header {
 
 .container-grid {
     width: 95vw;
-    margin: 0 auto;
+
 }
 
 
@@ -106,12 +106,16 @@ header {
     }
 
  
-
+.geral{
+    width: 1300px;
+    height: 400px;
+}
 
 .banner-geral{
         height: 1900px;
         background: linear-gradient(89.84deg, #0A64CE 0.17%, #010101 98.9%);
-        padding: 10px;
+        padding-top: 10px;
+    
     
         }
 
@@ -177,6 +181,10 @@ header {
     text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
 }
 
+#carrossel{
+    
+    width: 1300px;
+}
 
 .carousel-inner {
     padding-top: 10px; 
@@ -186,7 +194,7 @@ header {
     padding-bottom: 10px;
 }
 
-.cacarousel-item img {
+.cacarousel-inner img {
     height: 445px;
     width: 1300px;
 }
@@ -194,7 +202,7 @@ header {
 .produtos{
   
     display: flex;
-    width: 100%;
+    width: 1300px;
     justify-content: space-between;
     height: 450px;
 
@@ -204,7 +212,7 @@ header {
      display: flex;
     justify-content: space-between;
     height: 450px;
-    width: 100%;
+    width: 1300px;
     
 }
 
@@ -316,7 +324,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1300px){
     #barras{
        display: inline-block;
     }
@@ -360,7 +368,6 @@ footer{
     width: 20vw;
    }
    
-
     .ofertas{
         display: none;
     }
@@ -370,7 +377,7 @@ footer{
     }
 
     .esgotado{
-        height: 38git vw;
+        height: 38vw;
             width: 20vw;
         
     }
@@ -470,5 +477,10 @@ footer{
             height: 1000px;
         
 }
+.esgotado a {
+    width: 50.8px;
+    height: 101.6px;
+}
+
 
 }
